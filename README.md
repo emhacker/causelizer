@@ -15,5 +15,5 @@ From the project root directory,
 # Running Locally.
 
 1. Feature engineering phase
-  1.1 `rake rake run_feature_eng` This also package the jar if needed.
+  1.1 `rake run_feature_eng` This also package the jar if needed.
 
