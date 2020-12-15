@@ -1,4 +1,5 @@
-FEATURE_EP='com.microsoft.excel_online.causelizer.feature_engineering.ReadData'
+FEATURE_EP='com.microsoft.excel_online.causelizer.feature_engineering.FeatureSetReader'
+FEATURE_DIR='_data'
 TRGT_JAR='target/causalizer-1.0.jar'
 MVN='mvn'
 
@@ -13,5 +14,6 @@ task :run_feature_eng => :package do
     --driver-memory 2g \
     --executor-memory 2g \
     --class #{FEATURE_EP} \
-    #{TRGT_JAR}")
+    #{TRGT_JAR} \
+    --inputdir #{FEATURE_DIR}")
 end

@@ -94,6 +94,12 @@
     <version>3.0.5</version>
     <scope>test</scope>
   </dependency>
+  <!-- https://mvnrepository.com/artifact/com.github.scopt/scopt -->
+  <dependency>
+    <groupId>com.github.scopt</groupId>
+    <artifactId>scopt_2.12</artifactId>
+    <version>4.0.0</version>
+  </dependency>
 </dependencies>
 <build>
   <sourceDirectory>src/main/scala</sourceDirectory>
